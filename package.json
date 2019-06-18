@@ -1,7 +1,7 @@
 {
     "name": "check-ip-cf-workers",
     "version": "1.0.0",
-    "description": "A template for kick starting a Cloudflare Workers project",
+    "description": "A Cloudflare Workers for returning the visitor's IP Address",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",

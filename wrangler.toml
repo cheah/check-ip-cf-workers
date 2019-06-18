@@ -1,6 +1,17 @@
-name = "check-ip-cf-workers"
+name = "checkmyip-dev"
 type = "javascript"
 zone_id = ""
 private = false
-account_id = ""
+account_id = "e2096011608ea8f2ce7eb6eba67f4f5b"
 route = ""
+workers_dev = true
+
+[env.production]
+name = "checkmyip"
+zone_id = "c621428640672b483bc53d767b3bd6b7"
+route = "ip.tuvw.xyz"
+
+[env.staging]
+name = "checkmyip-stg"
+zone_id = "c621428640672b483bc53d767b3bd6b7"
+route = "ip.stg.tuvw.xyz"

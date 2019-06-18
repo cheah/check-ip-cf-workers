@@ -1,15 +1,5 @@
-# 👷 `worker-template` Hello World
+# Check IP Cloudflare Workers
 
-A template for kick starting a Cloudflare worker project.
+A Cloudflare worker to return the visitor's Public IP address in OpenWRT's [`ddns-scripts`](https://openwrt.org/docs/guide-user/services/ddns/client) compatible format, deployed at https://ip.tuvw.xyz
 
-[`index.js`](https://github.com/cloudflare/worker-template/blob/master/index.js) is the content of the Workers script.
-
-#### Wrangler
-To generate using [wrangler](https://github.com/cloudflare/wrangler)
-
-```
-wrangler generate myApp https://github.com/cloudflare/worker-template
-```
-
-#### Serverless
-To deploy using serverless add a [`serverless.yml`](https://serverless.com/framework/docs/providers/cloudflare/) file.
+You can clone this repo and deploy it on your own Cloudflare Workers subdomain by modifying the `wrangler.toml` config.
